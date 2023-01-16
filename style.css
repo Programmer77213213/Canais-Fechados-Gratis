@@ -1,0 +1,298 @@
+* {
+    list-style-type:none;
+    text-decoration:none;
+    transition:0.2s;
+    transition-delay:0.1s;
+    transition-duration:0.2s;
+    transition-timing-function:ease-in-out;
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(27, 27, 27);
+    display:grid;   
+    grid-template-areas:
+    "box3 box3 box3 box3"
+    "box2 box2 box1 box1"
+    "box2 box2 box1 box1"
+    "box4 box4 box4 box4"
+    
+}
+
+.case-log{
+    height:477px;
+    width:607px;    
+    border-radius:7px;   
+    border:3px solid rgb(128, 0, 0);
+}
+
+ul#ul-listas-menu {
+    display:flex;
+    justify-content:space-between;
+    margin:7px 7px 7px 7px;
+}
+
+ul#ul-listas-menu > li > a {
+    color:white;
+}
+
+header#menu {
+    grid-area:box3;
+    border:3px solid rgb(128, 0, 0);
+    background-color:rgb(128, 0, 0);
+    height:57px;
+}
+
+a#home:hover {
+  color:rgb(87, 87, 87); 
+  text-decoration:underline;
+}
+
+a#contato-desenvolvedor:hover {
+   color:rgb(87, 87, 87); 
+   text-decoration:underline 
+} 
+
+a#feedback:hover {
+   color:rgb(87, 87, 87); 
+   text-decoration:underline  
+}
+
+footer#rodape {
+    grid-area:box4;
+    margin-top:300px;
+    border:3px solid rgb(128, 0, 0);
+    color:white;
+    background-color:rgb(128, 0, 0);
+    border-radius:7px;    
+}
+
+div#container-footer {
+    display:flex;
+    justify-content:center;    
+}
+
+div#container-footer > div {
+   margin:17px 17px 17px 17px;  
+}
+
+main#conteudo-canais {
+    display:grid;
+    grid-template:
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+
+    ;
+}
+
+main#lista-canais {
+    grid-area:box2;
+    border:3px solid white;
+    width:642px;
+    height:397px;   
+    padding:17px 17px 17px 17px;
+    background-color:rgb(20, 20, 20);
+    margin:17px 17px 17px 17px;
+}
+
+ul#ul-lista-canais > li > a{
+    color:white;
+    font-size:19px;
+    padding:7px 7px 7px 7px;   
+}
+
+ul#ul-lista-canais > li {
+    border:2px solid white;
+    margin:5px 10px 5px 10px;
+    text-align:center;
+    background-color:rgb(20, 20, 20);
+}
+
+li#li1:hover {
+   transform:scale(1.2);
+   border:3px solid rgb(77, 77, 77); 
+   
+}
+
+li#li1:hover a {
+    color:rgb(101, 70, 241); 
+    text-decoration:underline;
+}
+
+li#li2:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+ }
+ 
+li#li2:hover a {
+    color:blue;     
+    text-decoration:underline;
+}
+
+li#li3:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+ }
+ 
+li#li3:hover a {
+    color:red; 
+    text-decoration:underline;
+}
+
+li#li4:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li4:hover a {
+    color:yellow; 
+    text-decoration:underline;
+}
+
+li#li5:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li5:hover a {
+    color:rgb(182, 1, 1); 
+    text-decoration:underline;
+}
+
+li#li6:hover {
+   transform:scale(1.2);
+   border:3px solid rgb(77, 77, 77); 
+   
+}
+
+li#li6:hover a {
+    color:rgb(49, 49, 194); 
+    text-decoration:underline;
+}
+
+li#li7:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+ }
+ 
+li#li7:hover a {
+    color:orange; 
+    text-decoration:underline;
+}
+
+li#li8:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li8:hover a {
+    color:yellow; 
+    text-decoration:underline;
+}
+
+li#li9:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li9:hover a {
+    color:rgb(0, 132, 255); 
+    text-decoration:underline;
+}
+
+li#li10:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li10:hover a {
+    color:green; 
+    text-decoration:underline;
+}
+
+li#li11:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li11:hover a {
+    color:rgb(77, 77, 77); 
+    color:rgb(201, 0, 0); 
+    text-decoration:underline;
+}
+
+li#li12:hover {
+    transform:scale(1.2);
+    border:3px solid rgb(77, 77, 77); 
+    
+}
+ 
+li#li12:hover a {
+     color:rgb(77, 77, 77); 
+}
+
+div#cartoon-network-box {
+    display:none;
+}
+
+div#disney-channel-box {
+    display:none;
+}
+
+div#tnt-box {
+    display:none;
+}
+
+div#national-geographics-box {
+    display:none;
+}
+
+div#telecine-pipoca-box {
+    display:none;
+}
+
+div#discovery-box {
+    display:none;
+}
+
+div#nicklodeon-box {
+    display:none;
+}
+
+div#comedy-central-box {
+    display:none;
+}
+
+div#nick-jr-box {
+    display:none;
+}
+
+div#animal-planet-box {
+    display:none;
+}
+
+div#warner-bros-box {
+    display:none;
+}
+
+main#conteudo-player {
+    grid-area:box1;
+    border:3px solid red;
+    width:627px;
+    margin:17px 17px 17px 17px;
+    padding:7px 7px 7px 7px;
+}
